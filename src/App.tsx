@@ -1,12 +1,12 @@
 import "./App.css";
-import IndexPage from "pages";
 import Sidebar from "layouts/Sidebar";
+import NoteContainer from "containers/NoteContainer";
 
 function App() {
   return (
-    <div>
+    <div className="flex min-h-screen">
       <Sidebar />
-      <IndexPage />
+      <NoteContainer />
     </div>
   );
 }
